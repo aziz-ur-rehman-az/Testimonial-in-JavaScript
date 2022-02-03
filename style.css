@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-box {
+  background-color: rgb(51, 73, 197);
+  width: 350px;
+  height: 390px;
+  margin: auto;
+  padding: 20px 15px 15px 15px;
+  margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px rgb(51, 73, 197);
+}
+.author-img {
+  /* background-color: rgb(196, 84, 84); */
+  /* padding-top: 50px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  box-shadow: 1px 1px 90px rgb(252, 252, 252);
+  margin-top: 15px;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 0.5rem;
+}
+.paragraph {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 3px 10px 3px 10px;
+  line-height: 23px;
+}
+.link {
+  line-height: 9rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 26rem;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 26rem;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
